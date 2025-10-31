@@ -1,4 +1,4 @@
-// main.js
+//  Task 1 main.js
 import { students } from "./student.mjs";
 import { teachers } from "./teacher.mjs";
 
@@ -16,3 +16,4 @@ teachers.forEach((teacher) => {
     `Name: ${teacher.name}, Subject: ${teacher.subject}, Experience: ${teacher.experience}`
   );
 });
+
