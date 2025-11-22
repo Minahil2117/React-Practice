@@ -1,4 +1,3 @@
-// Create an array of objects
 const employees = [
   {
     id: 1,
@@ -19,8 +18,6 @@ const employees = [
     designation: "Accountant",
   },
 ];
-
-// Function to fetch employee data
 const fetchEmployeeData = () => {
   return new Promise((resolve, reject) => {
     // Simulate a delay
@@ -34,7 +31,6 @@ const fetchEmployeeData = () => {
   });
 };
 
-// Function to find an employee by name
 const findEmployeeByName = (data) => {
   return new Promise((resolve, reject) => {
     // Simulate a delay
@@ -63,5 +59,6 @@ async function displayEmployeeData() {
 // Call the async function
 console.log("Fetching employee data...");
 displayEmployeeData();
+
 
 
